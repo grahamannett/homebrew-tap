@@ -2,28 +2,28 @@
 class Aviary < Formula
   desc "Bird-compatible CLI for reading and posting on X"
   homepage "https://github.com/grahamannett/aviary-swift"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     depends_on macos: :ventura
     on_arm do
-      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.0/aviary-0.1.0-macos-arm64.tar.gz"
-      sha256 "c9f9faef91339ba4f3eb56cca4dde5be13fa81708216c42fb0db66f253412668"
+      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.1/aviary-0.1.1-macos-arm64.tar.gz"
+      sha256 "7cd77a127bf938d7bc229306b12b993bc98aa09a3d5f5922b94cc6e901ad7a19"
     end
     on_intel do
-      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.0/aviary-0.1.0-macos-x86_64.tar.gz"
-      sha256 "644a6a2a6f595a1c25ec2f17ff095ce73ac18598f60f7f6cff152a6e77744d93"
+      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.1/aviary-0.1.1-macos-x86_64.tar.gz"
+      sha256 "ad72a48f26a3650e5c7f77ce0f7f6e5040c688622808527c8b2a9074ea1a63ed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.0/aviary-0.1.0-linux-arm64.tar.gz"
-      sha256 "f205c44193b4cba3b31e275b654171735f9b8d6c9998d3b092a39c320f93ed75"
+      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.1/aviary-0.1.1-linux-arm64.tar.gz"
+      sha256 "340bcf08fadf9385445d513ac8cff28761a02c38e16a025338dd0af9ab5f3df6"
     end
     on_intel do
-      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.0/aviary-0.1.0-linux-x86_64.tar.gz"
-      sha256 "2088b4184cdae07910fa425febcdac1fba40d8594001362194f90f5a0734958b"
+      url "https://github.com/grahamannett/aviary-swift/releases/download/v0.1.1/aviary-0.1.1-linux-x86_64.tar.gz"
+      sha256 "7943435acee1c6a3ec0fa111cdecd27c24afb44f81f699ca9cbaa01401c46562"
     end
   end
 
